@@ -6,7 +6,7 @@ export const getEmployees = async(req, res)=>{
 };
 
 export const init = (req, res)=>{
-    res.send("Hola");
+    res.send("Hola ");
 }
 
 export const getEmployeeById = async(req, res)=>{
