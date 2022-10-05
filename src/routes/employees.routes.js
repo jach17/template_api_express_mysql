@@ -10,5 +10,4 @@ router.get('/getEmployeeById/:id', getEmployeeById);
 
 router.post('/createEmployee', createEmployee);
 
-
 export default router;
