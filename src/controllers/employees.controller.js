@@ -5,6 +5,9 @@ export const getEmployees = async(req, res)=>{
     res.json(result);
 };
 
+export const init = (req, res)=>{
+    res.send("Hola");
+}
 
 export const getEmployeeById = async(req, res)=>{
     //TRy catch para manejar errores
